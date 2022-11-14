@@ -1,0 +1,246 @@
+#navbar-first-full{
+    background-color: orange;
+}
+.nav-bar-color{
+    color: white;
+}
+#navbar-first{
+    width: 80%;
+    display: flex;
+    justify-content: space-between !important;
+    height: 15px;
+    color: white;
+}
+#navbar-second{
+    width: 80%;
+    display: flex;
+    justify-content: space-between !important;
+    height: 70px;
+}
+#slider{
+    height: 650px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-rows: 4fr 3fr;
+}
+.fa-mobile-screen{
+    color: orange !important;
+}
+.fa-flask{
+    color: orange !important;
+}
+.fa-html5{
+    color: orange;
+}
+#r{
+    color: orange;
+}
+#icon-container{
+    display: flex;
+    /* flex-basis: 23%; */
+    border-radius: 10px;
+    margin:auto;
+    padding: 2px 1px 1px;
+    box-sizing: border-box;
+}
+.assignIcon{
+    margin: 0px 40px 0px;
+    text-align: center;
+}
+.icon-center{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+/* ------------------------first part--------------------------- */
+.other-features{
+    margin:auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.other-features-header p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.card-icon i{
+    color: grey;
+}
+#arrow{
+    color: rgb(255, 81, 0);
+}
+
+
+/* -----------------clean & modern----------------------------- */
+.clean-and-modern{
+    margin:auto;
+    text-align: center;
+    padding-top: 75px;
+    background-color: rgb(226, 224, 224);
+    margin-bottom: 50px;
+}
+.clean-and-modern-header{
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    padding-right: 20px;
+    margin-right: 75px;
+}
+.clean-and-modern-header-content{
+    text-align: left;
+    padding-left:50px;
+    margin-right: 45px;
+}
+.clean-and-modern-button{
+    color: white;
+    background-color: orange;
+    border: none;
+}
+.customer-say{
+    display: flex;
+    text-align: center;
+}
+.customer-say-first{
+    padding: 0px 0px 0px 0px;
+}
+.customer-say-second{
+    padding: 0px 0px 0px 0px;
+}
+.customer-say-first img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.customer-say-second img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#latest-news{
+    background-color: gainsboro;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.card-icon-news{
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+.card-icon-news a{
+    width: 10px;
+}
+
+
+
+
+.roww{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col-news p{
+    color: #bbbbbb;
+}
+.footer-col-news input{
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.2);
+}
+.footer-col-news button{
+    background-color: #f48608;
+    border: none;
+} 
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #f48608;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+#link-footer{
+    color: #bbbbbb;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 200px;
+}
+#link-footer i{
+    margin-left: 10px;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
